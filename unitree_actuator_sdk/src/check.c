@@ -5,7 +5,7 @@
 #include <sys/time.h> 
 #include "LSerial.h"    //serial port communication
 #include "motor_ctrl.h" 
-
+//Modified
 enum motor_command_type
 {
     TORQUE,

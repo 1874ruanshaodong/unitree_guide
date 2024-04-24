@@ -1,16 +1,19 @@
+//modify check.c
 #include <stdio.h>
 #include <errno.h>      
 #include <string.h>
 #include <unistd.h>    //usleep()
 #include <sys/time.h> 
 #include "LSerial.h"    //serial port communication
-#include "motor_ctrl.h" 
+
+#include <stdlib.h>
 //Modified
 enum motor_command_type
 {
     TORQUE,
     POSITION,
-    VELOCITY
+    VELOCITY,
+    add_code
 };
 
 int main()

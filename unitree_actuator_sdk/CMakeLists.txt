@@ -30,4 +30,7 @@ target_link_libraries(check_c ${EXTRA_LIBS})
 add_executable(check_cpp src/check.cpp)
 target_link_libraries(check_cpp ${EXTRA_LIBS})
 
+add_executable(check_cpp src/check.cpp)
+target_link_libraries(check_cpp ${EXTRA_LIBS})
+
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
